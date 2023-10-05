@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Vina+Sans&display=swap");
+.n1 {
+  background-color: #6495ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 5px 30px white;
+}
+
+.n1 img {
+  width: 200px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.n2 a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Borel", cursive;
+  color: blue;
+  margin: 0 50px;
+}
+.g1 img {
+  width: 1000px;
+  height: 600px;
+}
+.t1 {
+  width: 500px;
+  height: 600px;
+}
+.p1 {
+  display: flex;
+  padding-top: 100px;
+}
+.t1 h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.t1 p {
+  font-size: 20px;
+}
+button {
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(57, 57, 207);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.s1 img {
+  margin: 0 10px;
+}
+
+.a1 {
+  background-color: #6495ed;
+  margin-top: -10px;
+  padding-top: 120px;
+}
+.k {
+  display: flex;
+  justify-content: space-around;
+}
+.k2,
+.k3 {
+  width: 700px;
+  text-align: justify;
+}
+
+.k4 {
+  border: 3px dotted white;
+  text-align: center;
+  margin: 20px 50px;
+}
+.G3 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.G3 img {
+  width: 320px;
+  height: 480px;
+  text-align: center;
+}
+
+.G2 h1 {
+  text-align: center;
+}
+
+.G {
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.G:hover {
+  border: 1px solid;
+}
+
+.G1 img {
+  width: 250px;
+  height: 250px;
+}
+
+.G1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.G1 img:hover {
+  box-shadow: 0px 0px 30px black;
+}
+
+.G2 {
+  padding-top: 100px;
+}
+.tolongg {
+  width: 0;
+  height: 0;
+  transition: 0.5s;
+}
+
+.tolongg img {
+  width: 0;
+  height: 0;
+}
+
+.close {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  scale: 0;
+}
+
+.tolongg:target .close img {
+  width: 30px;
+  height: 30px;
+}
+
+.tolongg:target {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  width: auto;
+  height: auto;
+}
+
+.tolongg:target img {
+  width: 550px;
+  height: 400px;
+}
+
+.tolongg:target .close {
+  scale: 1;
+}
